@@ -3,12 +3,10 @@
 Official repository for the INTERSPEECH 2026 paper:
 
 **Selective Capability Unlearning in End-to-End Spoken Language Understanding**
-Akanksha Singh and Vinod Kumar Kurmi
-Indian Institute of Science Education and Research Bhopal
 
 ## Overview
 
-This work introduces **Binding Subspace Unlearning (BSU)** for selective capability removal in end-to-end spoken language understanding. The method targets intent-conditioned slot-generation behavior rather than only suppressing intent prediction, addressing capability persistence under forced-prefix decoding.
+Modern spoken language understanding systems are increasingly deployed in settings where specific functionalities may need to be removed due to policy or safety constraints. In SLU, a functionality corresponds to an intent and its associated slot-generation behavior. However, in autoregressive models, suppressing a target intent does not eliminate the conditional mapping that generates slots conditioned on that intent. When the intent prefix is externally supplied, the model can reconstruct the original intent-slot structure. We identify this structural failure as capability persistence. We propose Binding Subspace Unlearning (BSU), a representation-level framework that isolates and attenuates intent-conditioned directions underlying this mapping.
 
 ## Status
 
