@@ -12,7 +12,7 @@ Modern spoken language understanding systems are increasingly deployed in settin
 
 Code release: coming soon.
 
-The implementation, training scripts, evaluation protocol, and configuration files will be released after final cleanup.
+The implementation, training scripts, evaluation protocol, and configuration files will be released soon.
 
 ## Citation
 
