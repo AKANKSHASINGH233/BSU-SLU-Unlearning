@@ -12,9 +12,9 @@ Modern spoken language understanding systems are increasingly deployed in settin
 
 BSU consists of two stages.
 
-# 1. Binding Subspace Identification.
+## 1. Binding Subspace Identification.
 Decoder hidden states at slot positions are extracted under teacher-forced decoding. BSU contrasts forget-set and retain-set covariance structure to identify representation directions that are statistically enriched for the target intent and its associated slot-generation behavior.
-# 2. Subspace-Guided Capability Attenuation.
+## 2. Subspace-Guided Capability Attenuation.
 The model is fine-tuned with a gradient-based regularizer that reduces sensitivity along the identified binding directions. This weakens the intent-conditioned slot-generation mapping while preserving retained-intent behavior.
 Capability Persistence under Forced-Prefix Decoding
 
